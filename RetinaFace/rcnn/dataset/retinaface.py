@@ -12,7 +12,7 @@ import json
 from ..logger import logger
 from .imdb import IMDB
 from .ds_utils import unique_boxes, filter_small_boxes
-from ..config import config
+from .. import sample_config
 
 class retinaface(IMDB):
     def __init__(self, image_set, root_path, data_path):
